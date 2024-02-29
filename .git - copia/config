@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "Origin"]
+	url = https://github.com/SebastianCR0412/Prueba-en-Clase.git
+	fetch = +refs/heads/*:refs/remotes/Origin/*
+[branch "main"]
+	remote = Origin
+	merge = refs/heads/main
